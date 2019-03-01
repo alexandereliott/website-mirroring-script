@@ -1,0 +1,1 @@
+wget -c -m -p -k -e robots=off --wait=5 --html-extension --directory-prefix=. --random-wait --span-hosts --no-check-certificate --warc-cdx --user-agent=Mozilla --warc-file=example-site.com --domains=example-site.com,example-site2.com example-site.com
